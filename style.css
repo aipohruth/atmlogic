@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.small-container .right-container{
+    flex-basis: 50%;
+}
+.small-container{
+    width: 400px;
+    height: 90vh;
+    position: relative;
+}
+.small-container h1{
+    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+}
+.card{
+    position: absolute;
+    width: 333px;
+    height: 210px;
+    background-color: rgb(253, 89, 30);
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+   border-radius: 15px; 
+}
+.inner-card-container{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.logo{
+    width: 43px;
+    border: 1px solid #fff;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-top .right-top{
+    flex-basis: 50%;
+}
+.right-top{
+    margin-top: 10px;
+}
+small{
+    font-size: 0.43rem;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+    text-align: right;
+    line-height: 7px;
+    
+}
+.left-top{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.left-top h5{
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+}
+.chip{
+    margin-top: 5px;
+    margin-left: 32px;  
+}
+.chip img{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.side-silver{
+    width: 75px;
+    height: 45px;
+    background-color: #e4e8ee;
+    opacity: 0.8;
+    border-radius: 40px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 5px;
+    box-shadow:  inset -5px -5px 10px , 
+                  inset 5px 5px 10px #bbc2cc;
+}
+  .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right:8px solid black; 
+    margin-top: 3px;  
+}
+.card-numbers{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-top: 18px;
+}
+#numbers{
+    margin-left: 5px;
+    font-weight: 500;
+  
+}
+.card-numbers p{
+    font-size: 16px;
+}
+.tab {
+    display: inline-block;
+    margin-left: 18px;
+}
+.exp{
+    font-size: 9px;
+    margin-left: 42%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.mlogo{
+    margin-bottom: 5px;
+}
+.name{
+    margin-left: 10px;
+}
+.exp p{
+    color: #fff;
+}
+.exp b{
+    font-weight: 500;
+}
+.digit{
+    color: white;
+    float: left;
+    margin-top: -10px;
+}
+.material-icons{
+    transform: rotate(90deg);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/*Right container*/
+.right-container{
+    width: 400px;
+}
+.right-container h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.mini-container{
+    margin-top: 30px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.atm{
+    background-color: #ecf0f3;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                       5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(3, 95px);
+}
+
+input{
+    grid-column: span 3;
+    height: 130px;
+    width: 250px;
+    background-color: #ecf0f3;
+    outline: none;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 50px;
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+button{
+    height: 45px;
+    width: 80px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                    5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(22, 22, 97);
+}
+.b1{
+    width: 170px;
+    margin-left: 10px;
+}
+.note{
+    margin: 20px 10px;
+    line-height: 2rem;
+}
+/*input::placeholder{
+    max-width: 30px;
+}*/
+
+
+/*media query*/
+@media only screen and (max-width: 700px){
+    
+    .small-container .right-container{
+        flex-basis: 50%;
+    }
+    .card{
+        left: 47%;
+    }
+    .mini-container{
+        margin-top: 10px;
+    }
+   .atm{
+       margin-top: 15px;
+   }
+   
+    
+}
