@@ -15,11 +15,11 @@ A simple logic POS software to withdraw money using a provided card and a defaul
 - Enter your name and tap on OK
 - Click on Enter on the POS Machine
 - Enter Amount you want to Withdraw
-- Wait while it ***Processes***
-- Take your cash will prompt on the ***Screen***
+- Wait while it Processes 
+- Take your cash will prompt on the Screen
 
 
 ##Language
--JAVASCRIPT
-  >HTML
-  >CSS
+- JAVASCRIPT
+  * HTML 
+  * CSS 
